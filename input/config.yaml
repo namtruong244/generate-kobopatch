@@ -1,0 +1,22 @@
+## You can put lines in the following section to override the enabled state of patches.
+## The indentation matters! Each override should be indented by 4 spaces. Add to the
+## section below. This section can be copy and pasted into newer patch versions to
+## keep your selections.
+overrides:
+  src/nickel.yaml:
+  src/libadobe.so.yaml:
+  src/libnickel.so.1.0.0.yaml:
+    Always show confirmation dialog before upgrading: yes
+    Unify font sizes: yes
+  src/librmsdk.so.1.0.0.yaml:
+
+## ADDITIONAL FILES ##
+files:
+  src/fonts/Avenir-Bold.ttf: usr/local/Trolltech/QtEmbedded-4.6.2-arm/lib/fonts/Avenir-Bold.ttf
+  src/fonts/Avenir-BoldItalic.ttf: usr/local/Trolltech/QtEmbedded-4.6.2-arm/lib/fonts/Avenir-BoldItalic.ttf
+  src/fonts/Avenir-Italic.ttf: usr/local/Trolltech/QtEmbedded-4.6.2-arm/lib/fonts/Avenir-Italic.ttf
+  src/fonts/Avenir.ttf: usr/local/Trolltech/QtEmbedded-4.6.2-arm/lib/fonts/Avenir.ttf
+  src/fonts/georgia.ttf: usr/local/Trolltech/QtEmbedded-4.6.2-arm/lib/fonts/georgia.ttf
+  src/fonts/georgiab.ttf: usr/local/Trolltech/QtEmbedded-4.6.2-arm/lib/fonts/georgiab.ttf
+  src/fonts/georgiai.ttf: usr/local/Trolltech/QtEmbedded-4.6.2-arm/lib/fonts/georgiai.ttf
+  src/fonts/georgiaz.ttf: usr/local/Trolltech/QtEmbedded-4.6.2-arm/lib/fonts/georgiaz.ttf
